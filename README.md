@@ -13,7 +13,7 @@ Built to learn modern Android development with Jetpack Compose, Retrofit, and co
 
 ## Screenshots
 
-| Profile | Empty state | Error state |
+| Linux Torvalds | My profile | User not found |
 |---------|-------------|-------------|
 | ![Profile](screenshots/torvalds-profile.png) | ![Empty](screenshots/bohdan-profile.png) | ![Error](screenshots/error-state.png) |
 
@@ -30,9 +30,9 @@ Built to learn modern Android development with Jetpack Compose, Retrofit, and co
 
 The project is organized into two main layers:
 
-- **ui/** — Composables and ViewModel (presentation layer)
-- **data/api/** — Retrofit interface + singleton instance (network layer)
-- **data/model/** — Data classes mapped from GitHub REST API (domain models)
+- **ui/** - Composables and ViewModel (presentation layer)
+- **data/api/** - Retrofit interface + singleton instance (network layer)
+- **data/model/** - Data classes mapped from GitHub REST API (domain models)
 
 The app follows MVVM:
 
@@ -47,7 +47,7 @@ The app follows MVVM:
 2. Open in Android Studio (Ladybug or newer)
 3. Run on an emulator or device with Android 8.0+ (API 26)
 
-No API key required — uses GitHub's public REST API (rate-limited to 60 requests/hour for unauthenticated requests).
+No API key required - uses GitHub's public REST API (rate-limited to 60 requests/hour for unauthenticated requests).
 
 ## What I'd add next
 
@@ -60,4 +60,4 @@ No API key required — uses GitHub's public REST API (rate-limited to 60 reques
 
 ## Author
 
-Bohdan — Computer Science student at Dublin City University
+Bohdan - Computer Science student at Dublin City University
